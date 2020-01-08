@@ -6,6 +6,12 @@
     "freee-accounting",
     "laravel"
   ],
+  "authors": [
+    {
+      "name": "kawax",
+      "email": "kawaxbiz@gmail.com"
+    }
+  ],
   "license": "MIT",
   "require": {
     "php": "^7.2||^8.0",
