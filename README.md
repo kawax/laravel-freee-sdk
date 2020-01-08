@@ -34,6 +34,9 @@ FREEE_ACCOUNTING_CLIENT_ID=
 FREEE_ACCOUNTING_CLIENT_SECRET=
 ```
 
+## Demo
+https://github.com/kawax/laravel-freee-sdk-project
+
 ## 使い方
 Facade・Trait・Macroを使う方法とそれぞれテスト時の注意があるのでよく確認してください。
 
