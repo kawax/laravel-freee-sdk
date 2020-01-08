@@ -1,5 +1,9 @@
 # Freee SDK for Laravel
 
+[![Build Status](https://travis-ci.com/kawax/laravel-freee-sdk.svg?branch=master)](https://travis-ci.com/kawax/laravel-freee-sdk)
+[![Maintainability](https://api.codeclimate.com/v1/badges/04a09c18b2f041394f74/maintainability)](https://codeclimate.com/github/kawax/laravel-freee-sdk/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/04a09c18b2f041394f74/test_coverage)](https://codeclimate.com/github/kawax/laravel-freee-sdk/test_coverage)
+
 `freee-accounting-sdk-php`をLaravelから使いやすくするパッケージ。  
 https://github.com/freee/freee-accounting-sdk-php
 
