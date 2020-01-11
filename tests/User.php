@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Revolution\Freee\Tests;
 
 use Revolution\Freee\Traits\FreeeSDK;
 
