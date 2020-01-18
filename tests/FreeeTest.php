@@ -9,7 +9,10 @@ use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
 
 use Freee\Accounting\Configuration;
+use Freee\Accounting\Api\AccountItemsApi;
+use Freee\Accounting\Api\BanksApi;
 use Freee\Accounting\Api\CompaniesApi;
+use Freee\Accounting\Api\DealsApi;
 
 use Revolution\Freee\Facades\Freee;
 use Revolution\Freee\FreeeManager;
@@ -70,6 +73,14 @@ class FreeeTest extends TestCase
 
         $this->assertInstanceOf(CompaniesApi::class, $companiesApi);
         $this->assertSame($config, $companiesApi->getConfig());
+    }
+
+    public function testMagicApis()
+    {
+        $this->assertInstanceOf(AccountItemsApi::class, Freee::accountItems());
+        $this->assertInstanceOf(BanksApi::class, Freee::banks());
+        $this->assertInstanceOf(CompaniesApi::class, Freee::companies());
+        $this->assertInstanceOf(DealsApi::class, Freee::deals());
     }
 
     public function testHttpClient()
