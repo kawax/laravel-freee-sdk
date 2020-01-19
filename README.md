@@ -13,6 +13,16 @@ accounting以外のSDKが登場した場合はこのパッケージのまま対�
 - PHP >= 7.2
 - Laravel >= 6.0
 
+## Versioning
+- Basic : semver
+- Drop old PHP or Laravel version : `+0.1`
+- Support only latest major version (`master` brunch), but you can PR to old brunches.
+
+
+- 基本はsemver
+- サポート期限の切れた古いPHPやLaravelをサポート対象から外す時は0.1上げる。composerが上手く処理してくれるはず。
+- 最新のメジャーバージョンのみサポート対象。旧バージョンのブランチへのPRは可能。
+
 ## Installation
 ```
 composer require revolution/laravel-freee-sdk
