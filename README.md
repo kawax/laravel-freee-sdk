@@ -15,8 +15,8 @@ accounting以外のSDKが登場した場合はこのパッケージのまま対�
 
 ## Versioning
 - Basic : semver
-- Drop old PHP or Laravel version : `+0.1`
-- Support only latest major version (`master` brunch), but you can PR to old brunches.
+- Drop old PHP or Laravel version : `+0.1`. composer should handle it well.
+- Support only latest major version (`master` branch), but you can PR to old branches.
 
 
 - 基本はsemver
