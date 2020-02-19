@@ -29,7 +29,7 @@ composer require revolution/laravel-freee-sdk
 ```
 
 ### config/services.php
-`freee/socialite-freee`と同じなのでそのまま流用可能。
+`revolution/socialite-freee`と同じなのでそのまま流用可能。
 
 ```
     'freee-accounting' => [
