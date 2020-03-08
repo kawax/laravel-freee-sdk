@@ -2,23 +2,21 @@
 
 namespace Revolution\Freee\Tests;
 
-use Mockery as m;
-use GuzzleHttp\Client;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Psr7\Response;
-
-use Freee\Accounting\Configuration;
 use Freee\Accounting\Api\AccountItemsApi;
 use Freee\Accounting\Api\BanksApi;
 use Freee\Accounting\Api\CompaniesApi;
 use Freee\Accounting\Api\DealsApi;
-
+use Freee\Accounting\Configuration;
+use GuzzleHttp\Client;
+use GuzzleHttp\Handler\MockHandler;
+use GuzzleHttp\HandlerStack;
+use GuzzleHttp\Psr7\Response;
+use Mockery as m;
+use Revolution\Freee\Contracts\Accounting;
+use Revolution\Freee\Contracts\Factory;
+use Revolution\Freee\Drivers\AccountingClient;
 use Revolution\Freee\Facades\Freee;
 use Revolution\Freee\FreeeManager;
-use Revolution\Freee\Contracts\Factory;
-use Revolution\Freee\Contracts\Accounting;
-use Revolution\Freee\Drivers\AccountingClient;
 
 class FreeeTest extends TestCase
 {

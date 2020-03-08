@@ -2,12 +2,12 @@
 
 namespace Revolution\Freee\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Support\DeferrableProvider;
-use Revolution\Freee\Contracts\Factory;
-use Revolution\Freee\FreeeManager;
-use Revolution\Freee\Drivers\AccountingClient;
+use Illuminate\Support\ServiceProvider;
 use Revolution\Freee\Contracts\Accounting;
+use Revolution\Freee\Contracts\Factory;
+use Revolution\Freee\Drivers\AccountingClient;
+use Revolution\Freee\FreeeManager;
 
 class FreeeServiceProvider extends ServiceProvider implements DeferrableProvider
 {

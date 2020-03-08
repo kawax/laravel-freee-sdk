@@ -2,9 +2,9 @@
 
 namespace Revolution\Freee\Concerns;
 
+use Freee\Accounting\HeaderSelector;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
-use Freee\Accounting\HeaderSelector;
 
 trait HttpClient
 {

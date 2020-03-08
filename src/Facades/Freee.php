@@ -3,8 +3,8 @@
 namespace Revolution\Freee\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Revolution\Freee\Contracts\Factory;
 use Revolution\Freee\Contracts\Driver;
+use Revolution\Freee\Contracts\Factory;
 
 /**
  * @method static Driver config(\Freee\Accounting\Configuration $config)
