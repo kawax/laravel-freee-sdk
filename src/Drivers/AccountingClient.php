@@ -3,12 +3,12 @@
 namespace Revolution\Freee\Drivers;
 
 use BadMethodCallException;
+use Freee\Accounting\Configuration;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
-use Freee\Accounting\Configuration;
-use Revolution\Freee\Contracts\Accounting;
 use Revolution\Freee\Concerns\HttpClient;
 use Revolution\Freee\Concerns\RefreshToken;
+use Revolution\Freee\Contracts\Accounting;
 
 class AccountingClient implements Accounting
 {

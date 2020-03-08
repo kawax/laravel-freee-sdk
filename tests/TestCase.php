@@ -2,8 +2,8 @@
 
 namespace Revolution\Freee\Tests;
 
-use Revolution\Freee\Providers\FreeeServiceProvider;
 use Revolution\Freee\Facades\Freee;
+use Revolution\Freee\Providers\FreeeServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

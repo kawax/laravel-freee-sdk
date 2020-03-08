@@ -2,10 +2,10 @@
 
 namespace Revolution\Freee;
 
-use Illuminate\Support\Manager;
-use Revolution\Freee\Contracts\Factory;
-use Revolution\Freee\Contracts\Accounting;
 use Illuminate\Contracts\Container\BindingResolutionException;
+use Illuminate\Support\Manager;
+use Revolution\Freee\Contracts\Accounting;
+use Revolution\Freee\Contracts\Factory;
 
 class FreeeManager extends Manager implements Factory
 {
@@ -19,7 +19,7 @@ class FreeeManager extends Manager implements Factory
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     public function getDefaultDriver()
     {

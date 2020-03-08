@@ -2,11 +2,11 @@
 
 namespace Revolution\Freee\Traits;
 
+use Freee\Accounting\Configuration;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Freee\Accounting\Configuration;
-use Revolution\Freee\Contracts\Factory;
 use Revolution\Freee\Contracts\Driver;
+use Revolution\Freee\Contracts\Factory;
 
 trait FreeeSDK
 {
